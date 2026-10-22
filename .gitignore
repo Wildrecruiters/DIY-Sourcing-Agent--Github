@@ -1,0 +1,17 @@
+# Candidate and search data: never commit
+*.csv
+*.xlsx
+*.xls
+candidates/
+exports/
+intake/searches/
+evaluation/handle_map*
+
+# Secrets
+.env
+*.key
+*.pem
+
+# System files
+.DS_Store
+Thumbs.db
